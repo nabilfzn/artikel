@@ -2,16 +2,28 @@
 <li>Cloning Repository</li>
 <li>Running Laravel dari repo Github</li>
 
-<h2>Clonging Repository</h2>
-<li>Buka Repositry Website di Github</li>
-<li>di folder xampp > htdocs > klik kanan folder > pilih open git bash</li>
-<li>Ketik  : git clone url remote repository</li>
-<li>Buka folder project di git clone</li>
+<h2>1. Cloning Repository</h2>
+<ol>
+    <li>Buka repository proyek di GitHub.</li>
+    <li>Buka folder <code>htdocs</code> di dalam <code>xampp</code>.</li>
+    <li>Klik kanan di dalam folder, lalu pilih <code>Open Git Bash</code>.</li>
+    <li>Jalankan perintah berikut untuk meng-clone repository:</li>
+    <pre><code>git clone &lt;url-remote-repository&gt;</code></pre>
+    <li>Buka folder proyek hasil clone.</li>
+</ol>
 
-<h2>Running Laaravel di GitHub</h2>
-<li>buka terminal vscode pada folder project di</li> 
-<li>ketik composer install</li>
-<li>ketik cp .env.example .env</li>
-<li>ketik php artisan key:generate</li>
-<li>ketik php artisan migrate</li>
-<li>ketik php artisan serve</li>
+<h2>2. Menjalankan Laravel dari Repository GitHub</h2>
+<ol>
+    <li>Buka terminal VSCode di dalam folder proyek.</li>
+    <li>Jalankan perintah berikut untuk menginstal dependency Laravel:</li>
+    <pre><code>composer install</code></pre>
+    <li>Salin file konfigurasi environment:</li>
+    <pre><code>cp .env.example .env</code></pre>
+    <li>Generate application key:</li>
+    <pre><code>php artisan key:generate</code></pre>
+    <li>Jalankan migrasi database:</li>
+    <pre><code>php artisan migrate</code></pre>
+    <li>Jalankan aplikasi Laravel:</li>
+    <pre><code>php artisan serve</code></pre>
+</ol>
+
