@@ -5,6 +5,7 @@
 <h2>1. Cloning Repository</h2>
 <ol>
     <li>Buka repository proyek di GitHub.</li>
+    <li>salin link repository</li>
     <li>Buka folder <code>htdocs</code> di dalam <code>xampp</code>.</li>
     <li>Klik kanan di dalam folder, lalu pilih <code>Open Git Bash</code>.</li>
     <li>Jalankan perintah berikut untuk meng-clone repository:</li>
