@@ -1,6 +1,6 @@
 <h1>Cara Kolaborasi dengan Github</h1>
-- Cloning Repository
-- Running Laravel dari repo Github
+<li>Cloning Repository</li>
+<li>Running Laravel dari repo Github</li>
 
 <h2>Clonging Repository</h2>
 1. Buka Repositry Website di Github
